@@ -1,19 +1,19 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/mx4vd1Bo)
 
 # OOP 2024 Portfolio
-## Your Name
-### Your Group
-### Your Tutor
+## Firdaus Arshed
+### CSD4
+### Duncan Mullier
 
 
 
 ## Work Schedule
 **1 Getting Started**\
 **committed by 5th February**\
-1 Hello World        -- to do\
-2 Test               -- to do\
-3 Personal Details   -- to do\
-4 Diamonds           -- to do\
+1 Hello World        -- done\
+2 Test               -- done\
+3 Personal Details   -- done\
+4 Diamonds           -- done\
 5 Questions          -- to do
 
 **2 Data and Expressions**\
