@@ -38,5 +38,4 @@ public class Salary {
 	    System.out.println("Your new salary:      " + money.format(newSalary));
 	    System.out.println();
 				}
-				
-	}
+}
