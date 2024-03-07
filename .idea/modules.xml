@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/ComputingAverages/ComputingAverages.iml" filepath="$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/ComputingAverages/ComputingAverages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/CountPunctuation/CountPunctuation.iml" filepath="$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/CountPunctuation/CountPunctuation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/1GettingStarted/Diamond/Diamond.iml" filepath="$PROJECT_DIR$/WeeklyExercises/1GettingStarted/Diamond/Diamond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/Fraction/Fraction.iml" filepath="$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/Fraction/Fraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/1GettingStarted/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/WeeklyExercises/1GettingStarted/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/MilestoKilometer/MilestoKilometer.iml" filepath="$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/MilestoKilometer/MilestoKilometer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/PersonalDetails/PersonalDetails.iml" filepath="$PROJECT_DIR$/WeeklyExercises/PersonalDetails/PersonalDetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/Rock/Rock.iml" filepath="$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/Rock/Rock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/Salary/Salary.iml" filepath="$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/Salary/Salary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/SquareCalculations/SquareCalculations.iml" filepath="$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/SquareCalculations/SquareCalculations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/StringReverse/StringReverse.iml" filepath="$PROJECT_DIR$/WeeklyExercises/3SelectionAndIteration/StringReverse/StringReverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oop-portfolio-2024-firdausarshed.iml" filepath="$PROJECT_DIR$/.idea/oop-portfolio-2024-firdausarshed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/studentgrade/studentgrade.iml" filepath="$PROJECT_DIR$/WeeklyExercises/2DataAndExpressions/studentgrade/studentgrade.iml" />
+    </modules>
+  </component>
+</project>
