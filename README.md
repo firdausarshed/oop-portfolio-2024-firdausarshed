@@ -10,26 +10,26 @@
 ## Work Schedule
 **1 Getting Started**\
 **committed by 5th February**\
-1 Hello World        -- done\
-2 Test               -- done\
-3 Personal Details   -- done\
-4 Diamonds           -- done\
-5 Questions          -- to do
+1 Hello World        -- completed\
+2 Test               -- completed\
+3 Personal Details   -- completed\
+4 Diamonds           -- completed\
+5 Questions          -- completed
 
 **2 Data and Expressions**\
 **committed by 19th February**\
-1 Table of Student Grades  -- to do\
-2 Computing Averages       -- to do\
-3 Miles to Kilometers      -- to do\
-4 Square Calculation       -- to do\
-5 Fraction -- to do        -- to do
+1 Table of Student Grades  -- completed\
+2 Computing Averages       -- completed\
+3 Miles to Kilometers      -- completed\
+4 Square Calculation       -- completed\
+5 Fraction                 -- completed
 
 **3 Selection and Iteration**\
 **committed by 26th February**\
-1 Computing a Pay Increase   -- to do\
-2 Rock, Paper, Scissors      -- to do\
-3 String Reverser            -- to do\
-4 Punctuation Marks          -- to do
+1 Computing a Pay Increase   -- completed\
+2 Rock, Paper, Scissors      -- completed\
+3 String Reverser            -- completed\
+4 Punctuation Marks          -- completed
 
 **4 Classes and Objects**\
 **committed by 4th March**\
