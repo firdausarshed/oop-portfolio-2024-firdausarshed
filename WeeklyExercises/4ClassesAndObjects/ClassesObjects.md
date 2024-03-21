@@ -225,7 +225,7 @@ Your encrypted pin number is 1787212b12ef.
 
 
 
-***5) Sphere Calculations***
+***5) Sphere1 Calculations***
 
 
 Write and application that reads the radius of a sphere and prints its volume and surface area. Use the following formulas, where r represents the radius of the sphere. Print the output to four decimal places.

@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/4ClassesAndObjects/FormattingOutput" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/4ClassesAndObjects/PinEncryption" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/4ClassesAndObjects/SphereCalculations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Sphere" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
