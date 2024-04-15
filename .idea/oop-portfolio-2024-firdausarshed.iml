@@ -9,6 +9,14 @@
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/4ClassesAndObjects/PinEncryption" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/4ClassesAndObjects/SphereCalculations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Sphere" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Account" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Books" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Bulb" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/5_6WritingClassesAndMethods/Cards" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/8Polymorphism/Employee" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/8Polymorphism/Firm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/8Polymorphism/Password" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WeeklyExercises/8Polymorphism/StaffMember" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

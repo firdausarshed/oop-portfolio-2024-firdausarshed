@@ -41,7 +41,7 @@
 
 **5 and 6 Writing Classes and Methods**\
 **committed by 18th March**\
-1 Sphere1       -- to do\
+1 Sphere1       -- completed\
 2 Books        -- to do\
 3 Bulb         -- to do\
 4 Accounts     -- to do\
@@ -54,7 +54,7 @@
 
 **8 Polymorphism**\
 **committed by 15th April**\
-1 Firm Vacation           -- to do\
+1 Firm Vacation           -- completed\
 2 Password                -- to do
 
 **9 Further Arrays**\

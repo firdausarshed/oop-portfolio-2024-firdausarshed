@@ -32,8 +32,8 @@ public class Dice {
         double average1 = (double) d1rolls / numRolls;
         double average2 = (double) d2rolls / numRolls;
 
-        System.out.println("Die 1 rolled a total of " + d1rolls + " and rolled " + average1 + " on average.");
-        System.out.println("Die 2 rolled a total of " + d2rolls + " and rolled " + average2 + " on average.");
+        System.out.println("Dice 1 rolled a total of " + d1rolls + " and rolled " + average1 + " on average.");
+        System.out.println("Dice 2 rolled a total of " + d2rolls + " and rolled " + average2 + " on average.");
 
 
     }
