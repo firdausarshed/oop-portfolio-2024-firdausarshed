@@ -55,7 +55,7 @@
 **8 Polymorphism**\
 **committed by 15th April**\
 1 Firm Vacation           -- completed\
-2 Password                -- to do
+2 Password                -- completed\
 
 **9 Further Arrays**\
 **committed by 22nd April**\
