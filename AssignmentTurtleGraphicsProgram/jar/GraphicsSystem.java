@@ -19,8 +19,8 @@ public class GraphicsSystem extends OOPGraphics
             screen.pack();
             screen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             screen.setVisible(true);
-            displayMessage("turtle graphics by fifi");
             penDown();
+            //about();
 
     }
     public void processCommand(String command){
@@ -36,6 +36,7 @@ public class GraphicsSystem extends OOPGraphics
         else if (command.equals("about"))
         {
             about();
+            displayMessage("turtle graphics by fifi");
             commandslist.add(command);
         }
 
@@ -81,12 +82,6 @@ public class GraphicsSystem extends OOPGraphics
             commandslist.add(command);
         }
 
-        else if (command.equals("black"))
-        {
-            setPenColour(Color.black);
-            commandslist.add(command);
-        }
-
         else if (command.startsWith("forward"))
         {
             String[] spaces = command.split(" ");
@@ -95,7 +90,7 @@ public class GraphicsSystem extends OOPGraphics
                 try
                 {
                     int distance = Integer.parseInt(spaces[1]);
-                    if (distance <= 0 || distance > 800)
+                    if (distance <= 0 || distance > 402)
                     {
                         JOptionPane.showMessageDialog(null, "enter an appropriate value");
                     }
@@ -124,7 +119,7 @@ public class GraphicsSystem extends OOPGraphics
                 try
                 {
                     int distance = Integer.parseInt(spaces[1]);
-                    if (distance <= 0 || distance > 800)
+                    if (distance <= 0 || distance > 402)
                     {
                         JOptionPane.showMessageDialog(null, "enter an appropriate value");
                     }
