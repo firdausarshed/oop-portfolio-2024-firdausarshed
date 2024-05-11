@@ -1,10 +1,15 @@
 package jar;
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import uk.ac.leedsbeckett.oop.OOPGraphics;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Random;
+
 import static javax.swing.JOptionPane.showMessageDialog;
 
 public class GraphicsSystem extends OOPGraphics
@@ -197,6 +202,49 @@ public class GraphicsSystem extends OOPGraphics
                 JOptionPane.showMessageDialog(null, "enter a parameter");
             }
         }
+
+        else if (command.equals("save"))
+        {
+            BufferedImage mybufferedImage = getBufferedImage();
+            try
+            {
+                String format = String.format("%02d", new Random().nextInt(100));
+                File fileout = new File("graphicssystemimg_"+format+".png");
+                ImageIO.write(mybufferedImage, "png", fileout);
+
+                File commandsout = new File("commands_"+format+".txt");
+                FileWriter commandswriter = new FileWriter(commandsout, true);
+                for (String cmd : commandslist)
+                {
+                    commandswriter.write(cmd + "\n");
+                }
+                commandswriter.close();
+            }
+            catch (IOException saving)
+            {
+                JOptionPane.showMessageDialog(null, "unable to save file");
+            }
+        }
+        else if (command.equals("load"))
+        {
+            JFileChooser choosefile = new JFileChooser();
+            int output = choosefile.showOpenDialog(null);
+
+            if (output == JFileChooser.APPROVE_OPTION)
+            {
+                try
+                {
+                    File input = choosefile.getSelectedFile();
+                    BufferedImage mybufferedImage = ImageIO.read((input));
+                    setBufferedImage(mybufferedImage);
+                }
+                catch (IOException loading)
+                {
+                    JOptionPane.showMessageDialog(null,"unable to load file");
+                }
+            }
+        }
+
 
 
 
