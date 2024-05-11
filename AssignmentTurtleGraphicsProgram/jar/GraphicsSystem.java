@@ -41,7 +41,6 @@ public class GraphicsSystem extends OOPGraphics
         else if (command.equals("about"))
         {
             about();
-            displayMessage("turtle graphics by fifi");
             commandslist.add(command);
         }
 
@@ -84,6 +83,7 @@ public class GraphicsSystem extends OOPGraphics
         else if (command.equals("reset"))
         {
             reset();
+            penDown();
             commandslist.add(command);
         }
 
@@ -244,11 +244,56 @@ public class GraphicsSystem extends OOPGraphics
                 }
             }
         }
-
-
-
+        else if (command.startsWith("square"))
+        {
+            String[] spaces = command.split(" ");
+            if (spaces.length == 2)
+            {
+                try
+                {
+                    int length;
+                    length = Integer.parseInt(spaces[1]);
+                    if (length <= 0 || length > 402)
+                    {
+                        JOptionPane.showMessageDialog(null, "enter an appropriate value");
+                    }
+                    else
+                    {
+                        square(length);
+                        commandslist.add(command);
+                    }
+                }
+                catch (NumberFormatException forward)
+                {
+                    JOptionPane.showMessageDialog(null, "enter a number");
+                }
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, "enter a parameter");
+            }
+        }
 
     }
+
+    public void about()
+    {
+        super.about();
+        displayMessage("turtle graphics by fifi");
+
+    }
+
+    public void square(int len)
+    {
+        for (int i=0; i<4; i++)
+        {
+            forward(len);
+            turnRight(90);
+        }
+        reset();
+    }
+
+
 
 
 }
