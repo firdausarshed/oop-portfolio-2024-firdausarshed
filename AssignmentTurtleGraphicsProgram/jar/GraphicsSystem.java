@@ -25,25 +25,63 @@ public class GraphicsSystem extends OOPGraphics
     {
 
         switch (command) {
-            case "penup" -> penUp();
-            case "about" -> about();
-            case "pendown" -> penDown();
-            case "forward" -> forward(100);
-            case "backward" -> forward(-100);
-            case "turnleft" -> turnLeft();
-            case "turnright" -> turnRight();
-            case "black" -> setPenColour(Color.black);
-            case "green" -> setPenColour(Color.green);
-            case "red" -> setPenColour(Color.red);
-            case "white" -> setPenColour(Color.white);
-            case "clear" -> clear();
-            case "reset" -> reset();
-            default -> {
+            case "penup":
+                penUp();
+                break;
+
+            case "about":
+                about();
+                break;
+
+            case "pendown":
+                penDown();
+                break;
+
+            case "forward":
+                forward(100);
+                break;
+
+            case "backward":
+                forward(-100);
+                break;
+
+            case "turnleft":
+                turnLeft();
+                break;
+
+            case "turnright":
+                turnRight();
+                break;
+
+            case "black":
+                setPenColour(Color.black);
+                break;
+
+            case "green":
+                setPenColour(Color.green);
+                break;
+
+            case "red":
+                setPenColour(Color.red);
+                break;
+
+            case "white":
+                setPenColour(Color.white);
+                break;
+
+            case "clear":
+                clear();
+                break;
+
+            case "reset":
+                reset();
+                break;
+
+            default:
                 showMessageDialog(null, "Invalid Command!");
                 System.out.println("Invalid Command!");
-            }
 
-        }
+            }
 
         }
 
