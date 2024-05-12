@@ -174,6 +174,7 @@ public class GraphicsSystem extends OOPGraphics
                 JOptionPane.showMessageDialog(null, "enter a parameter");
             }
         }
+
         else if (command.startsWith("turnright"))
         {
             String[] spaces = command.split(" ");
@@ -225,6 +226,7 @@ public class GraphicsSystem extends OOPGraphics
                 JOptionPane.showMessageDialog(null, "unable to save file");
             }
         }
+
         else if (command.equals("load"))
         {
             JFileChooser choosefile = new JFileChooser();
@@ -244,6 +246,7 @@ public class GraphicsSystem extends OOPGraphics
                 }
             }
         }
+
         else if (command.startsWith("square"))
         {
             String[] spaces = command.split(" ");
@@ -274,13 +277,107 @@ public class GraphicsSystem extends OOPGraphics
             }
         }
 
+        else if (command.startsWith("pencolour"))
+        {
+            String[] spaces = command.split(" ");
+            if (spaces.length == 2)
+            {
+                String[] colours = spaces[1].split(",");
+                if (colours.length == 3)
+                {
+                    try
+                    {
+                        int red = Integer.parseInt(colours[0]);
+                        int green = Integer.parseInt(colours[1]);
+                        int blue = Integer.parseInt(colours[2]);
+                        if (red < 0 || red > 255 || green < 0 || green > 255 || blue < 0 || blue > 255)
+                        {
+                            JOptionPane.showMessageDialog(null, "insert valid values");
+                        }
+
+                        else
+                        {
+                            setPenColour(new Color(red, green, blue));
+                            commandslist.add(command);
+                        }
+                    }
+                    catch (NumberFormatException pencolour)
+                    {
+                        JOptionPane.showMessageDialog(null, "insert rgb values");
+                    }
+                }
+
+            }
+        }
+
+        else if (command.startsWith("penwidth"))
+        {
+            String[] spaces = command.split(" ");
+            if (spaces.length == 2)
+            {
+                try
+                {
+                    int width = Integer.parseInt(spaces[1]);
+                    if (width <0 || width > 30)
+                    {
+                        JOptionPane.showMessageDialog(null, "enter an appropriate value");
+                    }
+
+                    else
+                    {
+                        setStroke(width);
+                        commandslist.add(command);
+                    }
+
+                }
+                catch (NumberFormatException penwidth)
+                {
+                    JOptionPane.showMessageDialog(null, "enter a number");
+                }
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, " enter a parameter");
+            }
+        }
+
+        else if (command.startsWith("triangle"))
+        {
+            String[] spaces = command.split(" ");
+            if (spaces.length == 2)
+            {
+                try
+                {
+                    int length;
+                    length = Integer.parseInt(spaces[1]);
+                    if (length < 0 || length > 300)
+                    {
+                        JOptionPane.showMessageDialog(null,"enter an appropriate value");
+                    }
+                    else
+                    {
+                        triangle(length);
+                        commandslist.add(command);
+                    }
+                }
+                catch (NumberFormatException triangle)
+                {
+                    JOptionPane.showMessageDialog(null, "enter a number");
+                }
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(null, "enter a parameter ");
+            }
+        }
+
+
     }
 
     public void about()
     {
         super.about();
         displayMessage("turtle graphics by fifi");
-
     }
 
     public void square(int len)
@@ -291,6 +388,18 @@ public class GraphicsSystem extends OOPGraphics
             turnRight(90);
         }
         reset();
+        penDown();
+    }
+
+    public void triangle(int len)
+    {
+        for (int i=0; i<3; i++)
+        {
+            forward(len);
+            turnRight(120);
+        }
+        reset();
+        penDown();
     }
 
 
