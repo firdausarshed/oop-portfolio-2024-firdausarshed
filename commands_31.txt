@@ -1,0 +1,25 @@
+forward 100
+backward 200
+turnleft 90
+forward 100
+turnright 90
+forward 100
+penup
+turnright 90
+forward 100
+pendown
+green
+forward 100
+white
+forward 100
+black
+forward 100
+red
+forward 100
+backward 90
+clear
+turnright 90
+forward 100
+reset
+clear
+square 100

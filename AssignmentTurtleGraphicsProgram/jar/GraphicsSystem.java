@@ -10,11 +10,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
-import static javax.swing.JOptionPane.showMessageDialog;
-
 public class GraphicsSystem extends OOPGraphics
 {
-    private ArrayList<String> commandslist = new ArrayList<String>();
+    private final ArrayList<String> commandslist = new ArrayList<>();
 
     public GraphicsSystem()
     {
@@ -25,7 +23,7 @@ public class GraphicsSystem extends OOPGraphics
             screen.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             screen.setVisible(true);
             penDown();
-            //about();
+           // about();
 
     }
     public void processCommand(String command){
@@ -221,7 +219,7 @@ public class GraphicsSystem extends OOPGraphics
                 }
                 commandswriter.close();
             }
-            catch (IOException saving)
+            catch (IOException save)
             {
                 JOptionPane.showMessageDialog(null, "unable to save file");
             }
@@ -240,7 +238,7 @@ public class GraphicsSystem extends OOPGraphics
                     BufferedImage mybufferedImage = ImageIO.read((input));
                     setBufferedImage(mybufferedImage);
                 }
-                catch (IOException loading)
+                catch (IOException load)
                 {
                     JOptionPane.showMessageDialog(null,"unable to load file");
                 }
@@ -371,6 +369,11 @@ public class GraphicsSystem extends OOPGraphics
             }
         }
 
+        else
+        {
+            JOptionPane.showMessageDialog(null, "enter a valid command");
+        }
+
 
     }
 
@@ -401,8 +404,6 @@ public class GraphicsSystem extends OOPGraphics
         reset();
         penDown();
     }
-
-
 
 
 }

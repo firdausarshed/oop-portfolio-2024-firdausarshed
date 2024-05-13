@@ -1,9 +1,0 @@
-forward 100
-clear
-reset
-forward 100
-reset
-pendown
-forward 70
-turnleft 50
-backward 200
